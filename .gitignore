@@ -1,0 +1,60 @@
+# Build directories
+build/
+cmake-build-*/
+
+# IDE files (CLion/JetBrains)
+.idea/*
+
+# Visual Studio Code
+.vscode/
+
+# Compiled Object files
+*.o
+*.obj
+*.slo
+*.lo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+AKFSFSimulation
+*.exe
+*.out
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Debug files
+*.dSYM/
+*.su
+
+# Dependency directories
+# Comment these if you're checking in dependencies
+# /third-party/
+# /deps/
+
+# Generated documentation
+/doc/generated/
+/html/
+/latex/
