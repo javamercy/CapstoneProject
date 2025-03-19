@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
-project(AKFSFSimulation)
+project(Capstone)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 
 find_package(Eigen3 3.3 REQUIRED NO_MODULE)
 
@@ -30,7 +30,8 @@ set(SRC_CPP
         src/sensors.cpp
         src/simulation.cpp
         src/utils.cpp
-        src/kalmanfilter.cpp
+        src/capstone.h
+        src/capstone.cpp
 )
 
 add_executable(${PROJECT_NAME} ${SRC_CPP})
